@@ -1,14 +1,14 @@
 :root {
-  --bg: #0a0d10;
-  --panel: #12171c;
-  --panel-2: #161c22;
-  --border: #232b33;
-  --text: #e9edf0;
-  --text-dim: #8b96a3;
-  --text-faint: #5c6672;
-  --copper: #c97b4a;
-  --copper-soft: rgba(201, 123, 74, 0.14);
-  --signal: #6fcf97;
+  --bg: #fafaf8;
+  --panel: #ffffff;
+  --panel-2: #f2f3f4;
+  --border: #dde1e5;
+  --text: #171a1f;
+  --text-dim: #565f6b;
+  --text-faint: #8993a0;
+  --copper: #1f4a73;
+  --copper-soft: rgba(31, 74, 115, 0.08);
+  --signal: #1f7a52;
   --display: "Space Grotesk", system-ui, sans-serif;
   --body: "IBM Plex Sans", system-ui, sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, monospace;
@@ -74,7 +74,7 @@ header.hero {
   height: 7px;
   border-radius: 50%;
   background: var(--signal);
-  box-shadow: 0 0 0 3px rgba(111, 207, 151, 0.15);
+  box-shadow: 0 0 0 3px rgba(31, 122, 82, 0.14);
 }
 
 h1.name {
@@ -148,7 +148,7 @@ h1.name {
 
 .btn.primary {
   background: var(--copper);
-  color: #17110c;
+  color: #ffffff;
   border-color: var(--copper);
   font-weight: 600;
 }
@@ -262,7 +262,7 @@ section {
 .t-item.current::before {
   background: var(--signal);
   border-color: var(--signal);
-  box-shadow: 0 0 0 4px rgba(111, 207, 151, 0.15);
+  box-shadow: 0 0 0 4px rgba(31, 122, 82, 0.14);
 }
 
 .t-date {
